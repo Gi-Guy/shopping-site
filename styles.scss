@@ -1,0 +1,41 @@
+:root {
+    --text: hsl(210, 33%, 5%);
+    --background: hsl(210, 33%, 99%);
+    --primary: hsl(209, 60%, 52%);
+    --secondary: hsl(209, 71%, 71%);
+    --accent: hsl(209, 82%, 65%);
+}
+
+html{
+    background-color: var(--background);
+}
+
+/*Composition*/
+
+.grid {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/*Utility*/
+
+.text-align-center{
+text-align: center;
+}
+
+/*Block*/
+
+.card {
+    border-radius: 1rem;
+    background-color: var(--primary);
+
+}
+.card>ul>li{
+    border-radius: 0.5rem;
+    background-color: var(--secondary);
+    margin-top: 1rem;
+}
+
+/*Exception*/
+
