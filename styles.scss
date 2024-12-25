@@ -23,6 +23,25 @@ html{
 .text-align-center{
 text-align: center;
 }
+.color-primary{
+    color: var(--primary);
+}
+
+.color-secondary{
+    color: var(--secondary);
+}
+
+.color-accent{
+    color: var(--accent);
+}
+
+.color-background{
+    color: var(--background);
+}
+ 
+.text-color{
+    color: var(--text);
+}
 
 /*Block*/
 
