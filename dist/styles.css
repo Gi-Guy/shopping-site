@@ -23,7 +23,7 @@ html {
 }
 
 .color-primary {
-  color: var(--primary);
+  background-color: var(--primary);
 }
 
 .color-secondary {
@@ -61,8 +61,6 @@ body {
   font-family: Arial;
   background-color: #fbfcfd;
   color: black;
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
 }
 

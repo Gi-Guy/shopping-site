@@ -24,7 +24,7 @@ html{
 text-align: center;
 }
 .color-primary{
-    color: var(--primary);
+    background-color: var(--primary);
 }
 
 .color-secondary{
@@ -67,8 +67,6 @@ body {
   font-family: Arial;
   background-color: $background;
   color: black;
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
 }
 
