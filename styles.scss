@@ -18,11 +18,18 @@
 }
 
 .layout-wrap {
-  display: flex;
+  /*display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: flex-start;*/
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 35px;
+  padding: 20px;
+  min-width: 100px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .container {
