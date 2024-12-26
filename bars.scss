@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $secondary;
+    background-color: var(--secondary);
     padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   
@@ -42,15 +42,15 @@
       }
     
       button {
-        background-color: $secondary;
-        color: black;
-        border: 1px solid $secondary;
+        background-color: var(--secondary);
+        color: var(--black);
+        border: 1px solid var(--secondary);
         padding: 5px 10px;
         cursor: pointer;
         border-radius: 5px;
     
         &:hover {
-          background-color: $primary;
+          background-color: var(--primary);
         }
       }
     }
@@ -58,7 +58,7 @@
 
   .side-bar {
     flex: 0 0 150px;
-    background-color: $secondary;
+    background-color: var(--secondary);
     padding: 20px;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -76,7 +76,7 @@
   }
  
 .footer-bar {
-    background-color: $accent;
+    background-color: var(--accent);
     color: $background;
     text-align: center;
     padding: 10px 20px;
