@@ -43,6 +43,18 @@ text-align: center;
     color: var(--text);
 }
 
+.padding-horizontal {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.border-radius {
+  border-radius: 0.5rem;
+}
+
+.list-style-initial {
+  list-style: initial;
+}
 /*Block*/
 
 .card {
