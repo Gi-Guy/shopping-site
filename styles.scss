@@ -16,6 +16,40 @@
   justify-content: center;
   align-items: center;
 }
+.color-primary{
+    background-color: var(--primary);
+}
+
+.color-secondary{
+    color: var(--secondary);
+}
+
+.color-accent{
+    color: var(--accent);
+}
+
+.color-background{
+    color: var(--background);
+}
+ 
+.text-color{
+    color: var(--text);
+}
+
+.padding-horizontal {
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+}
+
+.border-radius {
+  border-radius: 0.5rem;
+}
+
+.list-style-initial {
+  list-style: initial;
+}
+/*Block*/
+
 .card {
   border-radius: 1rem;
   background-color: var(--primary);
@@ -55,9 +89,6 @@
   padding: 20px;
 }
 
-.u-margin-top {
-  margin-top: 1rem;
-}
 
 .u-bg-primary {
   background-color: var(--primary);
