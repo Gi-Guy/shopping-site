@@ -199,5 +199,10 @@ body {
 
 .main-container {
   @extend .layout-flex;
-  // flex: 1;
+   flex: 1;
+}
+.page-container {
+  @extend .layout-flex;
+  flex-direction: column;
+  min-height: 96.3vh;
 }

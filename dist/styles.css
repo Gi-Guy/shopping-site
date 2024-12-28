@@ -16,7 +16,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.layout-flex, .main-container, .product-card .product-buttons {
+.layout-flex, .page-container, .main-container, .product-card .product-buttons {
   display: flex;
 }
 
@@ -174,4 +174,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+.main-container {
+  flex: 1;
+}
+
+.page-container {
+  flex-direction: column;
+  min-height: 96.3vh;
 }
