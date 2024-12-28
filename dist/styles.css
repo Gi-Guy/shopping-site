@@ -13,7 +13,7 @@
 .layout-grid {
   display: grid;
   gap: 0.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
 }
 
 .layout-flex, .main-container, .page-container, .product-card .product-buttons {
@@ -47,8 +47,8 @@
 }
 
 .padding-horizontal {
-  padding-left: 7.5rem;
-  padding-right: 7.5rem;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .border-radius {
