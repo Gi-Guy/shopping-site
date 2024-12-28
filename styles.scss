@@ -119,6 +119,7 @@
 .card {
   @extend .u-border-radius;
   @extend .u-bg-primary;
+  padding-inline: 1rem;
 
   ul > li {
     @extend .u-border-radius;

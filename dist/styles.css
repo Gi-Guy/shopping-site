@@ -131,6 +131,9 @@
 }
 
 /* Block: Card */
+.card {
+  padding-inline: 1rem;
+}
 /* Block: Product List */
 .product-list {
   min-width: 100px;
