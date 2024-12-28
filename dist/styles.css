@@ -59,6 +59,28 @@
   list-style: initial;
 }
 
+.contact-form-wrapper .contact-form {
+  text-align: center;
+  padding: 20px;
+}
+.contact-form-wrapper .contact-form form {
+  margin: 0.5rem auto;
+}
+.contact-form-wrapper .contact-form form input[type=text],
+.contact-form-wrapper .contact-form form input[type=email],
+.contact-form-wrapper .contact-form form textarea {
+  width: 100%;
+  padding: 1rem;
+}
+.contact-form-wrapper .contact-form form button[type=submit] {
+  padding: 10px 20px;
+  background-color: var(--black);
+  color: var(--white);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
 /*Block*/
 .card {
   border-radius: 1rem;

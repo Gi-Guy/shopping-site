@@ -48,6 +48,35 @@
 .list-style-initial {
   list-style: initial;
 }
+
+.contact-form-wrapper {
+  .contact-form {
+    text-align: center;
+    padding: 20px;
+    
+
+    form {
+      margin: 0.5rem auto;
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 1rem;
+      }
+
+      button[type="submit"] {
+        padding: 10px 20px;
+        background-color: var(--black);
+        color: var(--white);
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
 /*Block*/
 
 .card {
@@ -207,3 +236,4 @@ body {
   @extend .layout-flex;
   flex: 1;
 }
+
