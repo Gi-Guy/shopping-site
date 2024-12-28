@@ -65,15 +65,9 @@
   text-align: center;
   }
 .layout-wrap {
-  /*display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: flex-start;
-  align-items: flex-start;*/
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.3rem;
-  // padding: 20px;
   margin: 0 auto;
 }
 
@@ -185,6 +179,12 @@
     }
   }
 }
+/* Block: Page */
+.page-container {
+  @extend .layout-flex;
+  flex-direction: column;
+  min-height: 96.3vh;
+}
 
 /* Exception */
 body {
@@ -200,9 +200,4 @@ body {
 .main-container {
   @extend .layout-flex;
    flex: 1;
-}
-.page-container {
-  @extend .layout-flex;
-  flex-direction: column;
-  min-height: 96.3vh;
 }
