@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.layout-grid {
+.layout-grid-sidebar {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
@@ -89,12 +89,12 @@
   @extend .u-text-white;
   @extend .u-text-center;
   @extend .u-padding;
-  margin-top: auto;
+  // margin-top: auto;
 }
 
 /* Block: Sub Bar */
 .sub-bar {
-  @extend .layout-grid;
+  @extend .layout-grid-sidebar;
   @extend .u-padding;
 
   .buttons-container {

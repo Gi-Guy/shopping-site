@@ -1,0 +1,70 @@
+:root {
+  --text: hsl(210, 33%, 5%);
+  --background: hsl(210, 33%, 99%);
+  --primary: hsl(209, 60%, 52%);
+  --secondary: hsl(209, 71%, 71%);
+  --accent: hsl(209, 82%, 65%);
+  --blue: hsl(195, 100%, 94%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* Composition */
+.layout-flex, .contact-form {
+  display: flex;
+}
+
+.contact-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-form {
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+/* Utility */
+.u-full-width, .contact-form input,
+.contact-form textarea {
+  width: 100%;
+}
+
+.u-padding, .contact-form input,
+.contact-form textarea {
+  padding: 10px;
+}
+
+.u-margin-top, .contact-form input,
+.contact-form textarea {
+  margin-top: 5px;
+}
+
+.u-margin-bottom, .contact-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.u-bg-accent, .u-button, .contact-form button, .contact-form {
+  background-color: var(--accent);
+}
+
+.u-button, .contact-form button {
+  padding: 10px 20px;
+  color: var(--white);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+/* Block */
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid var(--white);
+  border-radius: 0.5rem;
+}
+
+.contact-form .form-submit {
+  align-self: flex-start;
+}

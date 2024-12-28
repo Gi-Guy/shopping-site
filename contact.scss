@@ -1,0 +1,72 @@
+@import 'variables';
+
+/* Composition */
+.layout-flex {
+  display: flex;
+}
+
+.contact-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-form {
+  @extend .u-bg-accent;
+  @extend .layout-flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  // transform: translateY(-5rem);
+}
+
+/* Utility */
+.u-full-width {
+  width: 100%;
+}
+
+.u-padding {
+  padding: 10px;
+}
+
+.u-margin-top {
+  margin-top: 5px;
+}
+
+.u-margin-bottom {
+  margin-bottom: 1rem;
+}
+.u-bg-accent{
+  background-color: var(--accent);
+}
+
+.u-button {
+  @extend .u-bg-accent;
+  padding: 10px 20px;
+  color: var(--white);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+/* Block */
+.contact-form input,
+.contact-form textarea {
+  @extend .u-full-width;
+  @extend .u-padding;
+  @extend .u-margin-top;
+  border: 1px solid var(--white);
+  border-radius: 0.5rem;
+}
+
+.contact-form .form-group {
+  @extend .u-margin-bottom;
+}
+
+.contact-form .form-submit {
+  align-self: flex-start;
+}
+
+.contact-form button {
+  @extend .u-button;
+}

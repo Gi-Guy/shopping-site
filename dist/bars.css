@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-.layout-grid, .sub-bar {
+.layout-grid-sidebar, .sub-bar {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
@@ -81,10 +81,6 @@
 }
 
 /* Block: Footer Bar */
-.footer-bar {
-  margin-top: auto;
-}
-
 /* Block: Sub Bar */
 .sub-bar .buttons-container {
   display: flex;

@@ -4,7 +4,7 @@
 .layout-grid {
   display: grid;
   gap: 0.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px,250px));
 }
 
 .layout-flex {
@@ -16,6 +16,69 @@
   justify-content: center;
   align-items: center;
 }
+.color-primary{
+    background-color: var(--primary);
+}
+
+.color-secondary{
+    color: var(--secondary);
+}
+
+.color-accent{
+    color: var(--accent);
+}
+
+.color-background{
+    color: var(--background);
+}
+ 
+.text-color{
+    color: var(--text);
+}
+
+.padding-horizontal {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.border-radius {
+  border-radius: 0.5rem;
+}
+
+.list-style-initial {
+  list-style: initial;
+}
+
+.contact-form-wrapper {
+  .contact-form {
+    text-align: center;
+    padding: 20px;
+    
+
+    form {
+      margin: 0.5rem auto;
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 1rem;
+      }
+
+      button[type="submit"] {
+        padding: 10px 20px;
+        background-color: var(--black);
+        color: var(--white);
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+/*Block*/
+
 .card {
   border-radius: 1rem;
   background-color: var(--primary);
@@ -31,15 +94,9 @@
   text-align: center;
   }
 .layout-wrap {
-  /*display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: flex-start;
-  align-items: flex-start;*/
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 35px;
-  padding: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.3rem;
   margin: 0 auto;
 }
 
@@ -47,14 +104,13 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  width: 100%;
+  //width: 100%;
 }
 
 /* Utility */
 .u-padding {
   padding: 20px;
 }
-
 .u-margin-top {
   margin-top: 1rem;
 }
@@ -84,10 +140,15 @@
   text-align: center;
 }
 
+.u-width-100{
+  width: 100%;
+}
+
 /* Block: Card */
 .card {
   @extend .u-border-radius;
   @extend .u-bg-primary;
+  padding-inline: 1rem;
 
   ul > li {
     @extend .u-border-radius;
@@ -95,6 +156,7 @@
     @extend .u-margin-top;
   }
 }
+
 
 /* Block: Product List */
 .product-list {
@@ -152,6 +214,12 @@
     }
   }
 }
+/* Block: Page */
+.page-container {
+  @extend .layout-flex;
+  flex-direction: column;
+  min-height: 96.3vh;
+}
 
 /* Exception */
 body {
@@ -166,5 +234,6 @@ body {
 
 .main-container {
   @extend .layout-flex;
-  // flex: 1;
+  flex: 1;
 }
+
