@@ -126,6 +126,10 @@
   text-align: center;
 }
 
+.u-width-100 {
+  width: 100%;
+}
+
 /* Block: Card */
 /* Block: Product List */
 .product-list {

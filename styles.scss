@@ -111,6 +111,10 @@
   text-align: center;
 }
 
+.u-width-100{
+  width: 100%;
+}
+
 /* Block: Card */
 .card {
   @extend .u-border-radius;
@@ -200,5 +204,5 @@ body {
 
 .main-container {
   @extend .layout-flex;
-   flex: 1;
+  flex: 1;
 }
